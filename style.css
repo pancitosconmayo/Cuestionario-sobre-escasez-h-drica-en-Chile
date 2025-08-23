@@ -1,0 +1,97 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww34000\viewh18840\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 * \{\
+    margin: 0;\
+    padding: 0;\
+    font-family: 'Poppins', sans-serif;\
+    box-sizing: border-box;\
+\}\
+\
+body \{\
+    background: #001e4d;\
+    color: #fff;\
+\}\
+\
+.app \{\
+    background: #fff;\
+    width: 90%;\
+    max-width: 600px;\
+    margin: 100px auto 0;\
+    border-radius: 10px;\
+    padding: 30px;\
+\}\
+\
+.app h1 \{\
+    font-size: 25px;\
+    color: #001e4d;\
+    font-weight: 600;\
+    border-bottom: 1px solid #333;\
+    padding-bottom: 20px;\
+    text-align: center;\
+\}\
+\
+.quiz \{\
+    padding: 20px 0;\
+\}\
+\
+.quiz h2 \{\
+    font-size: 18px;\
+    color: #001e4d;\
+    font-weight: 600;\
+\}\
+\
+.btn \{\
+    background: #fff;\
+    color: #222;\
+    font-weight: 500;\
+    width: 100%;\
+    border: 1px solid #222;\
+    padding: 10px;\
+    margin: 10px 0;\
+    text-align: left;\
+    border-radius: 4px;\
+    cursor: pointer;\
+    transition: all 0.3s;\
+\}\
+\
+.btn:hover:not([disabled]) \{\
+    background: #222;\
+    color: #fff;\
+\}\
+\
+.btn:disabled \{\
+    cursor: no-drop;\
+\}\
+\
+#next-btn \{\
+    background: #001e4d;\
+    color: #fff;\
+    font-weight: 500;\
+    width: 150px;\
+    border: 0;\
+    padding: 10px;\
+    margin: 20px auto 0;\
+    border-radius: 4px;\
+    cursor: pointer;\
+    display: none; /* Oculto por defecto */\
+    transition: background 0.3s;\
+\}\
+\
+#next-btn:hover \{\
+    background: #003380;\
+\}\
+\
+.correct \{\
+    background: #9aeabc;\
+    border-color: #2b9348;\
+\}\
+\
+.incorrect \{\
+    background: #ff9393;\
+    border-color: #d90429;\
+\}}
